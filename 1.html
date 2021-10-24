@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<img id="myImage" onclick="light()" src="off.png" width="300" >
+
+<script>
+function light() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("on")) {
+    image.src = "off.png";
+  } else {
+    image.src = "on.png";
+  }
+}
+</script>
+
+</body>
+</html>
+
